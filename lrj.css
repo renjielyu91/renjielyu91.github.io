@@ -1,29 +1,100 @@
-body{background-color: #ccc;
+body{
+
+	width: 900px;
+    margin:0px auto;
+	padding: 0px;
+	background-color:#FDF5E6;
+
+}
+
+#header{
+	margin: 60px 0px 50px 0px;
+}
+
+
+h1, h2, h3{
+  color: #4682B4;
+  }
+
+#nav{
+    margin: 15px 0px 0px 0px;
+    float: right;
+    padding: 0 0;
+    /*width: 50%;*/
+}
+
+#nav a {
+	padding: 0px 1em;
+	color:#4682B4;
+	text-decoration: none;
+	float: left;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+#nav a:hover
+{
+color: #800000;
+}
+
+#nav a#active
+{
+	color: #800000;
+}
+
+#photo{
+	/*background-color: yellow;*/
+	width: 50%;
+    margin: 0;
+    padding: 0 0;
+	float: right;
+}
+
+#content{
+	/*background-color: blue;*/
+    width: 50%;
+    margin: 0;
+    padding-top: 40px;
+	float: left;
+}
+
+
+a{
+	color: 	#0000CD;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #800000;
+	text-decoration: none;
 
 }
 
 
-#container{
-    
-    width:750px;
-	margin:0px auto;
-	padding:20px;
-	border:1px solid #003366;
-	background-color:#eee8d5;
 
-
-
-
-}
-
-#header
-h1{
-	text-align:center;
-    color: #003366;
-}
 
 #band{
-	width:750px;
-	height:5px;
+    width: 900px;
+	height:2px;
 	background-color:#003366;
 }
+
+div.bigskip{
+	display: block;
+	/*background-color: #DB7093;*/
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+#footer{
+	clear: both;
+	margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+
+
+
+
+
