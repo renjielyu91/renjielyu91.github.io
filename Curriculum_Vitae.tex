@@ -1,0 +1,353 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{color}
+
+
+
+% Set your name here
+\def\name{Renjie Lyu}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+%\usepackage{sectsty}
+%\sectionfont{\rmfamily\bfseries\Large}
+%\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+\titleformat{\section}
+  {\scshape\Large\bfseries}{}
+    {0em}{}[\color{black}\titlerule\vspace{0pt}]
+\titlespacing*{\section}{0pt}{1.5ex}{0.7ex}
+\titlespacing*{\subsection}{0pt}{1.2ex}{0.5ex}
+\setlist[itemize]{leftmargin=1.5em, topsep=3pt, itemsep=2pt,
+  parsep=0pt, partopsep=0pt}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+%\renewenvironment{itemize}{
+  %\begin{list}{}{
+    %\setlength{\leftmargin}{1.5em}
+  %}
+%}{
+  %\end{list}
+%}
+
+\begin{document}
+
+% Place name at left
+\centerline{\huge \bf \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  School of Mathematical Sciences,\\
+  Xiamen University,\\
+  Office C513A, Building C, Haiyun Campus,\\
+  Xiamen 361005, China.
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Email: & \href{mailto:r.lyu@xmu.edu.cn}{\tt r.lyu@xmu.edu.cn} \\
+    Website: & \href{https://renjielyu91.github.io/}{\tt renjielyu91.github.io}\\
+  \end{tabular}
+\end{minipage}
+\vspace{2em}
+
+  I am an assistant professor at the School of Mathematical Sciences,
+  Xiamen University. Previously, I was a postdoctoral researcher at the
+  Morningside Center of Mathematics, Chinese Academy of Sciences. I received
+  my Ph.D. from the University of Amsterdam under the supervision of Mingmin Shen.
+
+  My research is in algebraic geometry, with interests in Hodge theory,
+  cubic hypersurfaces, algebraic cycles, and automorphisms of algebraic varieties.
+  
+
+
+%\begin{itemize}
+%\item Born on September 29, 1895.
+%\item United States Citizen.
+%\end{itemize}
+
+\section*{Employment}
+
+  \begin{itemize}
+
+    \item Sep. 2023--present. Assistant Professor, School of Mathematical Sciences,
+    Xiamen University.
+    
+    \item Oct. 2020--Aug. 2023. Postdoctoral Researcher, Morningside Center of
+    Mathematics, Chinese Academy of Sciences. Mentor: Baohua Fu.
+
+  \end{itemize}
+\section*{Education}
+
+\begin{itemize}
+  
+  \item Sep. 2016--Oct. 2020. Ph.D. in Mathematics, University of Amsterdam.
+  
+  Supervisor: Mingmin Shen.
+  
+  \item Aug. 2014--May 2016. M.A. in Mathematics, Washington University in St. Louis.
+
+  \item Sep. 2010--July 2014. B.S. in Mathematics, Zhejiang University.
+\end{itemize}
+
+\section*{Publications and Preprints}
+
+\subsection*{Published Articles}
+\begin{itemize}
+\item Renjie Lyu, \textit{Cylinder maps of algebraic cycles on cubic hypersurfaces},
+\textit{Bulletin of the London Mathematical Society} \textbf{57} (2025), no. 12,
+3949--3968. \href{https://doi.org/10.1112/blms.70200}{DOI};
+\href{https://arxiv.org/abs/1810.12394}{arXiv:1810.12394}.
+
+\item Renjie Lyu and Xuanyu Pan, \textit{Remarks on automorphism and cohomology
+of finite cyclic coverings of projective spaces}, \textit{Mathematical Research
+Letters} \textbf{28} (2021), no. 3, 785--822.
+\href{https://doi.org/10.4310/MRL.2021.v28.n3.a7}{DOI};
+\href{https://arxiv.org/abs/1705.06618}{arXiv:1705.06618}.
+\end{itemize}
+
+\subsection*{Accepted Article}
+\begin{itemize}
+\item Renjie Lyu and Zhiwei Zheng, \textit{Degenerations to secant cubic
+hypersurfaces and limiting Hodge structure}, to appear in
+\textit{Algebraic Geometry}.
+\href{https://arxiv.org/abs/2206.12670}{arXiv:2206.12670}.
+\end{itemize}
+
+\subsection*{Preprints}
+\begin{itemize}
+\item Renjie Lyu and Xiping Zhang, \textit{Remarks on the monodromy conjecture
+for symmetric determinantal hypersurfaces}, 2026.
+\href{https://arxiv.org/abs/2610.18395}{arXiv:2610.18395}.
+
+\item Renjie Lyu and Xuanyu Pan, \textit{Limiting Hodge Structures for Cubic
+Hypersurfaces of Secant Type}, 2026.
+\href{https://arxiv.org/abs/2607.11198}{arXiv:2607.11198}.
+
+\item Wenfei Liu and Renjie Lyu, \textit{The Chevalley--Weil formula for finite
+group actions on higher dimensional compact complex manifolds}, 2025.
+\href{https://arxiv.org/abs/2510.10430}{arXiv:2510.10430}.
+
+\item Renjie Lyu and Dingxin Zhang, \textit{Generic Triviality of Automorphism
+Groups of Complete Intersections}, 2024.
+\href{https://arxiv.org/abs/2404.11037}{arXiv:2404.11037}.
+
+\item Renjie Lyu, \textit{Lines on the secant cubic hypersurfaces of Severi
+varieties}, 2021. \href{https://arxiv.org/abs/2112.00335}{arXiv:2112.00335}.
+\end{itemize}
+
+\subsection*{Doctoral Thesis}
+\begin{itemize}
+\item Renjie Lyu, \textit{Algebraic cycles on cubic hypersurfaces and Fano scheme
+of lines}, University of Amsterdam, 2020.
+\href{https://pure.uva.nl/ws/files/50986723/Thesis.pdf}{Thesis}.
+\end{itemize}
+
+\section*{Invited Talks}
+
+\begin{itemize}
+
+  \item \textit{Degeneration of Hodge structures and cubic hypersurfaces,} 
+  Purdue Algebraic Geometry Seminar (online), Purdue University, Sep. 2023. 
+
+  \item \textit{Degeneration of Hodge structures and cubic hypersurfaces,} 
+  Moduli Spaces and Related Topics, YMSC, Tsinghua University, June 2023.
+
+  \item \textit{Generic Triviality of automorphisms on algebraic varieties,} 
+  Xiamen University, June 2023.
+
+  \item \textit{Degeneration of Hodge structures and cubic hypersurfaces,} 
+  International Young Scholars Forum, Tongji University, Jan. 2023.
+
+  \item \textit{Degeneration of Hodge structures and cubic hypersurfaces,} 
+  The 2nd Global Youth Forum, Institute of Geometry and Physics, USTC, Dec. 2022.
+
+  \item \textit{Degeneration of cubic hypersurfaces and limiting Hodge structure,} 
+  Shanghai Jiao Tong University, Aug. 2022, online.
+
+  \item \textit{Degeneration of cubic hypersurfaces and limiting Hodge structure,} 
+  3rd National Algebraic Geometry Conference, Fudan University, July 2022, online.
+
+  \item \textit{Lines on the secant cubic hypersurfaces of Severi varieties,} 
+  MCM Members Seminar, CAS, Nov. 2021.
+  
+  \item \textit{Cubic hypersurfaces: Chow groups, motives and rationality problems,} 
+  MCM Members Seminar, CAS, Dec. 2020.
+
+  \item \textit{The automorphism and cohomology of cyclic coverings,} 
+  S\'eminaire G\'eom\'etrie de l'ICJ, Universit\'e Claude Bernard Lyon 1, May 2019.
+
+  \item \textit{A result of algebraic cycles on cubic hypersurfaces,} 
+  Rationality of Algebraic Varieties, Schiermonnikoog Island, Apr. 2019.
+
+  \item \textit{A result of algebraic cycles on cubic hypersurfaces,} 
+  Algebraic and Arithmetic Seminar, University of Amsterdam, Feb. 2019.
+
+  \item \textit{A result of algebraic cycles on cubic hypersurfaces,} 
+  Forschungsseminar "Arithmetische Geometrie", Humboldt University, Jan. 2019.
+
+  \item \textit{A result of algebraic cycles on cubic hypersurfaces,} 
+  Algebraic Geometry Seminar, Chinese Academy of Science, Dec. 2018.
+
+  \item\textit{Chow rings of hyper-K\"ahler manifolds,} 
+  GAeL XXV, University of Bath, June 2017.
+
+\end{itemize}
+
+
+\section*{Honors and Awards}
+
+\begin{itemize}
+\item S.-T. Yau College Student Mathematics Contest 2013,\\
+         Geometry and Topology, Bronze Medal.
+\end{itemize}
+
+
+\newpage
+\section*{Seminar Talks}
+\begin{itemize}
+\item \textit{Characterization of cubic hypersurfaces in projective geometry}, 
+preprint seminar, MCM, Mar 2022. 
+
+\item \textit{Degeneration of Hodge structures}, 
+preprint seminar, MCM, Nov 2021. 
+
+\item \textit{Lagrangian fibration on irreducible symplectic manifolds}, 
+Lagrangian Fibration Seminar, MCM, Mar 2021.
+
+\item \textit{Fano variety of lines on cubic fourfolds}, 
+Reading Seminar on Cubic Hypersurfaces, MCM, Jan 2021. 
+
+\item \textit{Fqpc sites: descent theory}, 
+\'Etale Cohomology Seminar, University of Amsterdam, Sep 2019. 
+
+\item \textit{Bounding the trace of monodromy representations},
+ Reading Seminar on Finiteness of Monodromy Representation, University of Amsterdam, Nov 2018.
+
+\item\textit{ Deligne-Mumford stacks},
+Moduli Stacks Seminar, Utrecht, Oct 2017.
+
+\item \textit{Isogenous K3 surfaces are twisted derived equivalent}, 
+Algebraic and Arithmetic Seminar, University of Amsterdam, Sep 2017.
+
+\item\textit{ Tate modules and fundamental groups of abelian varieties}, 
+Abelian Varieties Seminar, Feb 2017.
+
+\item \textit{Basics of abelian varieties}, 
+Abelian Varieties Seminar, Oct 2016.
+
+\end{itemize}
+
+
+\section*{Seminars (Co-)Organized}
+\begin{itemize}
+
+\item Lagrangian Fibration and Hyper-K\"ahler variety, MCM, Spring 2021.  
+
+\item Seminar on Good Reduction of Abelian Varieties, University of Amsterdam, Fall 2016.
+
+\end{itemize}
+
+
+\section*{Teaching Experience}
+\subsection*{Teaching Assistantships}
+\begin{itemize}
+\item Differential Geometry, Fall 2019.
+\item Abelian Variety, Fall 2018.
+\item Algebra 2, Fall 2018.
+\item Topology, Spring 2018.
+\item Algebraic geometry 1, Fall 2017.
+\item Topology, Spring 2017.
+\item Representation Theory, Fall 2016.
+\item Introduction to Lebesgue Integration, Spring 2016.
+\item Complex Analysis II, Spring 2016.
+\item Complex Variables,  Fall 2015.
+\item Geometry I, Fall 2015.
+\item Complex Analysis I, Fall 2015.
+\end{itemize}
+
+
+
+%\section*{Employment}
+
+%\begin{itemize}
+%\item Stanford University 1927--1931.
+%\item Columbia University 1931--1946.
+%\item University of North Carolina, 1946--1973.
+%\end{itemize}
+
+
+%\section*{Publications}
+
+%\subsection*{Journal Articles}
+
+%\begin{itemize}
+
+%\end{itemize}
+
+
+
+\vfill
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: October 15, 2026.
+  \end{footnotesize}
+\end{center}
+
+\end{document}
